@@ -1,0 +1,39 @@
+#optiondiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+#optiondiv div{
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: 1px solid black;
+    text-align: center;
+    padding: .5rem 2rem;
+    width: 15rem;
+    height: auto;
+    background-color: #fff;
+    margin: 2rem 2rem;
+    cursor: pointer;
+}
+.btncolor{
+    background-color: green;
+}
+
+@media screen and (max-width:885px){
+    #optiondiv div{
+        margin: .5rem 2rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .qus{
+        font-size: 18px;
+    }
+    #optiondiv div{
+        width: 10rem;
+        height: auto;
+    }
+}
